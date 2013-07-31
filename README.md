@@ -6,11 +6,19 @@ Straighten out your Backbone.js
 Building
 --------
 
-In order to build the Chiropractor code you must run:
+To get started developing Chiropractor you must first run two commands to
+install all of the dependencies:
+
+    npm install
+    bower install
+
+In order to compile the Chiropractor code for release you must run:
 
 	grunt
 
-Which will generate `chiropractor.js` as well as `chiropractor.min.js` in the root of the project. Whenever you wish to run this command, please be sure to increment the version defined in `package.json` as well as `bower.json`.
+Which will generate `chiropractor.js` as well as `chiropractor.min.js` in the
+root of the project. Whenever you wish to run this command, please be sure to
+increment the version defined in `package.json` as well as `bower.json`.
 
 Tests
 -----
